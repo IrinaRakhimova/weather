@@ -6,7 +6,7 @@ const About = () => (
       <title>About | Weather App</title>
       <meta name="description" content="This is a simple React weather app using Open-Meteo API." />
     </Helmet>
-    <div className="page-container">
+    <div className="page">
       <h1>About This App</h1>
       <p>This app uses Open-Meteo API to show a 3-day forecast for Berlin.</p>
     </div>
