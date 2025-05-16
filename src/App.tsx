@@ -8,15 +8,15 @@ const App: React.FC = () => {
   return (
     <>
       <nav className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/forecast">Forecast</Link>
-        <Link to="/about">About</Link>
+        <Link to="/weather">Home</Link>
+        <Link to="/weather/forecast">Forecast</Link>
+        <Link to="/weather/about">About</Link>
       </nav>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/forecast" element={<ForecastPage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/weather" element={<Home />} />
+          <Route path="/weather/forecast" element={<ForecastPage />} />
+          <Route path="/weather/about" element={<About />} />
         </Routes>
       </main>
     </>
